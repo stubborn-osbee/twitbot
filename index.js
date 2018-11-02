@@ -2,7 +2,7 @@
 var Twitter = require('twitter');
 
 //Import config module
-var config =require('./config');
+var config = require('./config');
 
 //Autheticating user
 var client = new Twitter(config);
